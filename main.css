@@ -10,6 +10,7 @@ body {
 .navbar-brand {
     color: #fff;
     cursor: pointer;
+	text-indent: 1em;
 }
 .nav-link {
     margin-right: 1em !important;
@@ -91,4 +92,35 @@ body {
 .features .btn:hover {
     background-color: #333;
     border: 1px solid #333;
+}
+.background {
+	background: #dedec8;
+	padding: 4em 0;
+}
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+.team .card {
+	background:none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
 }
