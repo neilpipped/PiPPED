@@ -128,6 +128,7 @@ a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
+    background-color: #008CBA;
 
     text-decoration: none;
     color: initial;
