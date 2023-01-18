@@ -7,21 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PiPPED - FAQs</title>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
-    <main>
-
-        <h1 class="faq-heading">FAQs</h1>
+    <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">PiPPED - FAQs</a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <header class="page-header header container-fluid">
+        <div class="overlay"></div>
         <section class="faq-container">
             <div class="faq-one">
 
-                <!-- faq question -->
                 <h1 class="faq-page">What is PiPPED?</h1>
 
-                <!-- faq answer -->
                 <div class="faq-body">
                     <p>My mantra, being Programming in Perth && Practicing Every Day.</p>
                 </div>
@@ -30,10 +47,8 @@
 
             <div class="faq-two">
 
-                <!-- faq question -->
                 <h1 class="faq-page">You keep having two amprasands.</h1>
 
-                <!-- faq answer -->
 
                 <div class="faq-body">
                     <p>In most languages, "&&" is used as the "and" operator.</p>
@@ -44,16 +59,17 @@
 
             <div class="faq-three">
 
-                <!-- faq question -->
-<h1 class="faq-page">Why do you have a website?</h1>
+                <h1 class="faq-page">Why do you have a website?</h1>
 
-                <!-- faq answer -->
                 <div class="faq-body">
                     <p>While I'm proud of my LinkedIn profile, it's a social media platform that anyone can simply complete the prebuilt fields. This website was built from scratch using manual code.</p>
                 </div>
             </div>
 
         </section>
+    </header>
+    <main>
+        
     </main>
     <script src="main.js"></script>
 </body>
