@@ -5,6 +5,16 @@ body {
 }
 .navbar {
     background:#6ab446;
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 .nav-link,
 .navbar-brand {
@@ -20,6 +30,14 @@ body {
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
 }
 .header {
     background-image: url('images/header-background.jpg');
