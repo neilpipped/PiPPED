@@ -3,17 +3,8 @@ body {
     margin: 0;
     background: #f2f6e9;
 }
-#main-navigation {
+.navbar {
     background:#6ab446;
-    overflow: hidden;
-    background-color: #333;
-}
-#main-navigation a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
 }
 .nav-link,
 .navbar-brand {
@@ -29,14 +20,6 @@ body {
 }
 .navbar-collapse {
     justify-content: flex-end;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.sticky + .content {
-    padding-top: 60px;
 }
 .header {
     background-image: url('images/header-background.jpg');
