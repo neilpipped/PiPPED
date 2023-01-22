@@ -61,6 +61,9 @@ body {
     background:#fff;
     color:#000;
 }
+.pipped {
+    color: #6ab446;
+}
 .features {
 	margin: 4em auto;
 	padding: 1em;
