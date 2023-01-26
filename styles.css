@@ -9,8 +9,10 @@ body {
 .nav-link,
 .navbar-brand {
     color: #fff;
-    cursor: pointer;
 	text-indent: 1em;
+}
+.navbar-brand:hover {
+    color: #fff;
 }
 .nav-link {
     margin-right: 1em !important;
@@ -49,17 +51,6 @@ body {
 	color: #fff;
 	font-size: 1.3rem;
 	line-height: 1.5;
-}
-.description button {
-    border:1px solid #6ab446;
-    background:#6ab446;
-    border-radius: 0;
-    color:#fff;
-}
-.description button:hover {
-	border:1px solid #fff;
-    background:#fff;
-    color:#000;
 }
 .pipped {
     color: #6ab446;
