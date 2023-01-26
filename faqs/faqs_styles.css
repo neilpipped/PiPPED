@@ -1,5 +1,5 @@
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+    font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
     background: #f2f6e9;    
@@ -10,8 +10,11 @@ body{
 .nav-link,
 .navbar-brand {
     color: #fff;
-    cursor: pointer;
 	text-indent: 1em;
+}
+.navbar-brand:hover {
+    color: #fff;
+    cursor: default;
 }
 .nav-link {
     margin-right: 1em !important;
@@ -56,16 +59,17 @@ body{
     padding: 20px 60px;
 }
 .faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .hr-line{
-  width: 60%;
-  margin: auto;
+    width: 60%;
+    margin: auto;
   
 }
 .faq-page {
+    font-size: 20px;
     color: #444;
     cursor: pointer;
     padding: 30px 20px;
@@ -76,9 +80,10 @@ flex-direction: column;
     margin: auto;
 }
 .faq-body{
+    cursor: default;
     margin: auto;
-   width: 50%; 
-   padding: auto;
+    width: 60%; 
+    padding: auto;
    
 }
 .faq-body {
