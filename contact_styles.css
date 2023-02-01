@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+body {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    }
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff !important;
+	text-indent: 1em;
+}
+.navbar-brand:hover {
+    color: #fff !important;
+	cursor: default !important;
+    background: #6ab446 !important;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.profile-name {
+    text-align: center;
+    padding: 30px;
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+a:hover {
+    color: red;
+    background: black;
+}
+.background {
+	background: #dedec8;
+	padding: 4em 0;
+}
+.background {
+	cursor: default;
+}
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+.team .card {
+	background: none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.page-footer:hover {
+	cursor: default;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
