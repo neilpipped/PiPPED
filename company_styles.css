@@ -73,14 +73,17 @@ body {
 .team .card-title {
 	font-size: 1.3rem;
 	margin-bottom: 0;
-	text-transform: uppercase;
 }
 h1 {
 	text-align: center;
 	font-family: Luckiest Guy !important;
 	color: red;
+}
+
+h1 span {
 	background-color: black;
 }
+
 .page-footer {
     background-color: #222;
     color: #ccc;

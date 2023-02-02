@@ -29,6 +29,10 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
+.team {
+	color: #5e5e55;
+	padding: 0 180px;
+}
 .profile-name {
     text-align: center;
     padding: 30px;
@@ -78,6 +82,10 @@ a {
 	font-size: 1.3rem;
 	margin-bottom: 0;
 	text-transform: uppercase;
+}
+.team .card {
+	background: none;
+	border: none;
 }
 .page-footer {
     background-color: #222;
