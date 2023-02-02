@@ -52,7 +52,7 @@ a {
     color: black;
     transition: color 1s;
 }
-a:hover {
+.links:hover {
     color: red;
     background: black;
 }
