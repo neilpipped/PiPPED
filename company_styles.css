@@ -61,6 +61,12 @@ body {
 	background: rgb(222, 222, 200);
 	padding: 4em 0;
 }
+.h2 {
+	color: rgb(70, 109, 56);
+}
+.pipped {
+    color: #6ab446;
+}
 .board {
 	color: #5e5e55;
 	padding: 0 180px;
