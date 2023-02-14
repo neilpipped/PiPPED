@@ -49,8 +49,8 @@ body {
 .description:hover {
 	cursor: default;
 }
-.description h1 {
-	color: #fff;
+.description h2 {
+	color: rgb(70, 109, 56);
 }
 .description p {
 	color: #fff;
