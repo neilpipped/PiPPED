@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+	text-indent: 1em;
+}
+.navbar-brand:hover {
+    color: #fff;
+	cursor: default;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.features:hover {
+	cursor: default;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.background {
+	background: #dedec8;
+	padding: 4em 0;
+}
+.background {
+	cursor: default;
+}
+.background-board {
+	background: rgb(222, 222, 200);
+	padding: 4em 0;
+}
+.h2 {
+	color: rgb(70, 109, 56);
+}
+.pipped {
+    color: #6ab446;
+}
+.board {
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.board .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.board .card {
+	background:none;
+	border: none;
+}
+.board .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+.background-team {
+	background: rgb(202, 198, 167);
+	padding: 4em 0;
+}
+.team {
+	color: #5e5e55;
+}
+.team .card-columns {
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card {
+	background: none;
+	border: none;
+}
+.team .card-title {
+	font-size: 1.3rem;
+	margin-bottom: 0;
+}
+h1 {
+	text-align: center;
+	font-family: Luckiest Guy !important;
+	color: red;
+}
+
+h1 span {
+	background-color: black;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.page-footer:hover {
+	cursor: default;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+@font-face {
+	font-family: 'Luckiest Guy';
+	font-style: normal;
+	font-weight: 400;
+	src: url(http://fonts.gstatic.com/s/luckiestguy/v18/_gP_1RrxsjcxVyin9l9n_j2hTd52.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
